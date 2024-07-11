@@ -1,0 +1,24 @@
+{
+    "name": "example",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "watch": "vite build --mode development --watch",
+        "prod": "vite build --mode production",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@rollup/plugin-inject": "^5.0.5",
+        "bootstrap": "^5.3.3",
+        "miix-dialog": "git+ssh://git@git.m2x.com.tw:m2x/miix-dialog.git#3.0.1",
+        "mithril": "^2.2.2",
+        "validate.js": "^0.13.1",
+        "vite-plugin-svgr": "^4.2.0"
+    },
+    "devDependencies": {
+        "sass": "^1.77.6",
+        "vite": "^5.3.3"
+    }
+}
